@@ -1,0 +1,8 @@
+types:
+    - mosquitto
+    - paho
+    - cancel
+templates:
+    - template_mosquitto.yaml
+    - template_paho.yaml
+    - cancel
