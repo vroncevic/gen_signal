@@ -2,8 +2,14 @@ name: gen_signal py checker
 on:
   push:
     branches: [ main ]
+    paths:
+      - 'gen_signal/**'
+      - 'setup.py'
   pull_request:
     branches: [ main ]
+    paths:
+      - 'gen_signal/**'
+      - 'setup.py'
 jobs:
   build:
     runs-on: ubuntu-latest
